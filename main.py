@@ -33,7 +33,8 @@ if __name__=="__main__":
         
         if connection==0:
                 openPorts.append(i)
-        channel.close
+    
+    channel.close
 
 print(f'\nOpen ports : {openPorts}')
 print(f'Time taken: {time.time() - runTime}')
