@@ -1,7 +1,4 @@
 # panner
 Simple port scanning tool made with Python 3
 
-You can run the executable file of this in Releases.
-
-![image](https://user-images.githubusercontent.com/108408219/206873998-a17c480f-3f21-4ea9-9e8a-af3a3fa36e2f.png)
-
+![image](https://user-images.githubusercontent.com/108408219/207972009-bcdf30d7-4b57-49fc-a6fb-e9a7cfaaf651.png)
