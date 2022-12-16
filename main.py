@@ -88,4 +88,4 @@ if __name__ == "__main__":
     print(f"\nScan complete. Time taken: {end_time-start_time:.2f} seconds")
 
     # Wait for the user to press ENTER before closing the program
-    input('\nPress ENTER to exit')
+    input('\nPress any key to exit...')
