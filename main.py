@@ -1,8 +1,6 @@
 from socket import *
-import threading
-import time
-import timeit
 from os import system, name
+import threading, time, timeit
 
 class PortScan:
     def __init__(self, target, start_port, end_port):
@@ -72,8 +70,8 @@ if __name__ == "__main__":
                 end_port = start_port
             break
         except ValueError:
-            print("Invalid port range. Please try again.")
+            print("Invalid port range. Please try again.\n")
     
-    Scan = PortScan(target, start_port, end_port)
-    Scan.get_target()
-    Scan.scan_ports()
+    scan = PortScan(target, start_port, end_port)
+    scan.get_target()
+    scan.scan_ports()
