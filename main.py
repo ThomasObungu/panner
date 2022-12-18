@@ -4,14 +4,13 @@ import time
 import timeit
 from os import system, name
 
-
 class PortScan:
     def __init__(self, target, start_port, end_port):
         self.target = target
         self.start_port = start_port
         self.end_port = end_port
         self.open_ports = []
-
+       
     def clear_screen(self):
         if name == 'nt':
             _ = system('cls')
