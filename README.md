@@ -1,6 +1,6 @@
 # panner
 Simple port scanning tool made with Python 3
-![image](https://user-images.githubusercontent.com/108408219/208233662-db030f99-1d63-4f81-b8e7-a12255ab06e6.png)
-![image](https://user-images.githubusercontent.com/108408219/208233689-634f711d-d22a-4d44-8ec7-4405f100a329.png)
-![image](https://user-images.githubusercontent.com/108408219/208233741-9f89782b-cb75-4784-8340-1ac5aa341a30.png)
+
+<img width="569" alt="image" src="https://user-images.githubusercontent.com/108408219/208313299-28a19c6a-0388-4939-8d80-4b209be1250a.png">
+
 
