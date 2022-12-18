@@ -3,7 +3,7 @@ import time
 import timeit
 from os import system, name
 
-class PortScanner:
+class PortScan:
     def __init__(self, target, start_port, end_port):
         self.target = target
         self.start_port = start_port
@@ -57,6 +57,6 @@ if __name__ == "__main__":
         start_port = int(port_range)    
         end_port = start_port
 
-    scanner = PortScanner(target, start_port, end_port)
-    scanner.get_target()
-    scanner.scan_ports()
+    scan = PortScan(target, start_port, end_port)
+    scan.get_target()
+    scan.scan_ports()
