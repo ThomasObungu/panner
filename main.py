@@ -74,6 +74,6 @@ if __name__ == "__main__":
         except ValueError:
             print("Invalid port range. Please try again.")
     
-    scan = PortScan(target, start_port, end_port)
-    scan.get_target()
-    scan.scan_ports()
+    Scan = PortScan(target, start_port, end_port)
+    Scan.get_target()
+    Scan.scan_ports()
