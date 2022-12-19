@@ -4,10 +4,7 @@ import threading, time, timeit
 
 class PortScan:
     def __init__(self, target, start_port, end_port):
-        self.target = target
-        self.start_port = start_port
-        self.end_port = end_port
-        self.open_ports = []
+        self.target, self.start_port, self.end_port, self.open_ports = target, start_port, end_port, []
        
     def clear_screen(self):
         if name == 'nt':
@@ -57,7 +54,7 @@ class PortScan:
         print(f"\nScan complete. Time taken: {end_time - start_time:.2f} seconds")
         input('\nPress ENTER to exit...')
 
-if __name__ == "__main__":
+def main():
     target = input("Enter host for scanning (Type 127.0.0.1 for localhost): ")
     
     while True:
@@ -75,3 +72,6 @@ if __name__ == "__main__":
     scan = PortScan(target, start_port, end_port)
     scan.get_target()
     scan.scan_ports()
+
+if __name__ == "__main__":
+    main()
