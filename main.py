@@ -1,8 +1,3 @@
-from socket import *
-from os import system, name
-import threading, time, timeit
-from portscanner import PortScan
-
 def main():
     target = input("Enter host for scanning (Type 127.0.0.1 for localhost): ")
     
