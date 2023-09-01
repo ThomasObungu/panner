@@ -1,3 +1,5 @@
+from port_scanner import PortScan
+
 def main():
     target = input("Enter host for scanning (Type 127.0.0.1 for localhost): ")
     
