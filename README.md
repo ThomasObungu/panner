@@ -1,4 +1,4 @@
-God bless you all. ❤️
+
 # panner
 Simple port scanning tool made with Python 3. Utilizing threading, raw sockets and regex.
 Uses timeit to measure the speed of scanning. Times may vary depending on how powerful your computers CPU is.
